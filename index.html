@@ -26,11 +26,25 @@ content="width=device-width, initial-scale=1.0">
 
 <h1>OCR Correos</h1>
 
-<video
-id="video"
-autoplay
-playsinline>
-</video>
+<input
+  type="file"
+  id="imagen"
+  accept="image/*"
+  capture="environment">
+
+<button id="leer">
+Leer códigos
+</button>
+
+<button id="pdf">
+Generar PDF
+</button>
+
+<button id="limpiar">
+Limpiar
+</button>
+
+<div id="resultados"></div>
 
 <div class="botones">
 
