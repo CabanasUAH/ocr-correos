@@ -1,0 +1,8 @@
+{
+  "name":"OCR Correos",
+  "short_name":"Correos",
+  "display":"standalone",
+  "start_url":"./",
+  "background_color":"#ffffff",
+  "theme_color":"#ffd200"
+}
